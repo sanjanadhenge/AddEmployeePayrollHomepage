@@ -134,8 +134,8 @@ td img:first-child{
 td img{
     cursor: pointer;
 }
-.dept-lable{
-    background-color: #9ebd3b;
+.dept-label{
+    background-color: hsl(71, 76%, 64%);
     border-radius: 40%;
     width:fit-content;
     padding: 1px 7px;
