@@ -7,6 +7,7 @@
     <title>Document</title>
     <script src="../Payroll.js"></script>
     <script src="../Payroll-form.js"></script>
+    <script src="../home.js"></script>
 </head>
 <body>
     <!----UC1-->
@@ -20,8 +21,7 @@
             </div>
       </header>
     <div id="formId" class="form-content">
-        <form class="form" action="#"onreset="resetForm()" onsubmit="save()">
-             <!----UC2-->
+    <form class="form" action="#" onreset="resetForm()" onsubmit="save()">
     <div class="form-head">Employee Payroll form</div>
     <div class="row-content">
         <label class="label text" for ="name">Name</label>
@@ -136,7 +136,7 @@
                 <option value="Nov">November</option>
                 <option value="Dec">December</option>
             </select>
-            <select id="year" name="Yonth">
+            <select id="year" name="Year">
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
                 <option value="2018">2018</option>
@@ -150,14 +150,13 @@
         <textarea id="notes" class="input" name="Notes" placeholder="" style="height: 100px"></textarea>
     </div>
     <div class="button-content">
-        <a href="./home.html" class="resetButton button cancelButton">Cancel</a>
+        <a href="../home.html" class="resetButton button cancelButton">Cancel</a>
         <div class="Submit-reset">
             <button type="submit" class="button submitButton" id="submitButton">Sumbit</button>
-            <button type="reset" class="button resetButton">Reset</button>
+            <button type="reset" class="resetButton button">Reset</button>
         </div>
     </div>
  </form>
  </div>
-   
 </body>
 </html>
